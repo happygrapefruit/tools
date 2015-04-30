@@ -12,8 +12,8 @@ require "set"
 # input.csv **should not have any headers**
 # Ensure input.csv is in same directory as this file.
 
-# Sift's published API rate limit is 250 requests per second, which this process will not hit,
-# however you can add sleep time in the format 0.05 = 5ms.
+# Sift's published API rate limit is 250 requests per second, which this process will typically not hit,
+# however you can add sleep time in the format 0.05 = 5ms and use "time" in the command line to initially test.
 # It's recommended that you begin with a smaller max_batch to ensure the process works.
 
 INPUT_CSV          = "input.csv"
