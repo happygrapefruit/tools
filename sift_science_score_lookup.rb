@@ -1,4 +1,5 @@
-# This code reads an input CSV file of UIDs and writes an output CSV file of UID & Sift Score.
+# This utility is meant for use with Sift Science Score API.
+# This code reads an input CSV file of user IDs (UIDs) and writes an output CSV file of UID & Sift Science Score.
 # It returns a value of -1 if Sift does not have a score for a given UID.
 # It includes a method that checks the UIDs already written when starting, so subsequent runs will only include new UIDs.
 
